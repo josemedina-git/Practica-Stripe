@@ -1,0 +1,1 @@
+Practica para incorporar Stripe en una pagina estatica.
