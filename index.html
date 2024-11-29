@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stripe - Suscripción</title>
+</head>
+<body>
+    <header>
+        <h1>Suscripción VPN Secure Pro</h1>
+    </header>
+    <main>
+
+        <p>Protege tu privacidad y seguridad en línea con nuestra solución 
+            de VPN de alta velocidad y cifrado avanzado. 
+            Disfruta de acceso ilimitado a servidores en más de 50 países, 
+            navegación sin restricciones y soporte técnico 24/7. 
+            Nuestra tecnología asegura que tus datos personales y 
+            actividades en línea estén protegidos contra amenazas cibernéticas. 
+            Ideal para usuarios que buscan anonimato, acceso global a 
+            contenido restringido y una conexión confiable.</p>
+
+        <script async
+            src="https://js.stripe.com/v3/buy-button.js">
+        </script>
+        <stripe-buy-button
+            buy-button-id="buy_btn_1QQcLBDsXAJgcmBKrJNcSQ8U"
+            publishable-key="pk_test_51QP6yGDsXAJgcmBKYZ5kLrlwbJlRfWi0yExE4ofibew3SXSor2xD6Fz5pvuRJxBTRLoFyA8JIUCHA1PQDuuxNz3H00V5LFNrRl"
+        >
+        </stripe-buy-button>
+    </main>
+    <footer>
+        <p>&copy; 2024 VPN Secure. Todos los derechos reservados.</p>
+        <p>
+            Síguenos en 
+            <a href="#">Facebook</a>, 
+            <a href="#">Twitter</a> y 
+            <a href="#">LinkedIn</a>.
+        </p>
+        <p><a href="#">Términos y condiciones</a> | <a href="#">Política de privacidad</a></p>
+    </footer>
+</body>
+</html>
